@@ -1,20 +1,38 @@
 const projects = [
   {
-    title: 'Interactive 3D Landing',
-    description: 'A Spline-powered hero with smooth scroll parallax and dark mode.',
-    tags: ['React', 'Spline', 'Framer Motion'],
+    title: 'Product Trailer — Tech Gadget',
+    description: '60s launch trailer with kinetic typography, speed ramps, and sound design.',
+    tags: ['Premiere Pro', 'After Effects', 'Sound Design'],
     link: '#',
   },
   {
-    title: 'Design System Kit',
-    description: 'Composable UI kit following shadcn and Radix best practices.',
-    tags: ['Design System', 'Tailwind', 'Radix'],
+    title: 'Creator Edit — Short-Form Series',
+    description: 'TikTok/Reels pack: punchy pacing, meme cuts, subtitles, and color grade.',
+    tags: ['Short-form', 'Subtitles', 'Color Grade'],
     link: '#',
   },
   {
-    title: 'Realtime Dashboard',
-    description: 'Data visualizations with websockets and delightful micro-interactions.',
-    tags: ['Vite', 'Charts', 'Websockets'],
+    title: 'Event Aftermovie — Festival',
+    description: 'High-energy recap with crowd moments, transitions, and beat-matched cuts.',
+    tags: ['Event', 'Transitions', 'Beat Match'],
+    link: '#',
+  },
+  {
+    title: 'Brand Story — Startup',
+    description: 'Narrative edit with voice-over, b-roll, and subtle motion graphics.',
+    tags: ['Narrative', 'VO', 'Motion GFX'],
+    link: '#',
+  },
+  {
+    title: 'YouTube Video — Tech Review',
+    description: 'Clean timeline, chapter pacing, lower-thirds, and thumbnail package.',
+    tags: ['YouTube', 'Lower Thirds', 'Thumbnail'],
+    link: '#',
+  },
+  {
+    title: 'Ad Spot — Apparel',
+    description: '15s social ad with product highlights, masking transitions, and SFX hits.',
+    tags: ['Ad', 'Masking', 'SFX'],
     link: '#',
   },
 ];
@@ -24,8 +42,8 @@ export default function Projects() {
     <section id="projects" className="relative py-20">
       <div className="mx-auto max-w-6xl px-4">
         <div className="mb-10">
-          <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-neutral-900 dark:text-white">Selected Projects</h2>
-          <p className="mt-2 text-neutral-700 dark:text-neutral-300 max-w-2xl">A snapshot of things I loved building recently. More on request.</p>
+          <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-neutral-900 dark:text-white">Featured Edits</h2>
+          <p className="mt-2 text-neutral-700 dark:text-neutral-300 max-w-2xl">A selection of commercial, creator, and event edits. Full portfolio available on request.</p>
         </div>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

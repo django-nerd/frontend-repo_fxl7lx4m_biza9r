@@ -15,10 +15,10 @@ export default function Hero() {
 
         <div className="relative pt-24 pb-24">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-neutral-900 dark:text-white">
-            Building playful, modern, interactive web experiences
+            Cinematic video edits for brands, creators, and products
           </h1>
           <p className="mt-4 max-w-2xl text-neutral-700 dark:text-neutral-300">
-            I’m a frontend developer crafting immersive interfaces with React, WebGL, and delightful micro-interactions. Explore my latest projects and get in touch.
+            I craft scroll-stopping edits, snappy cuts, and modern motion graphics. From TikTok to product trailers and event aftermovies — let’s make your story unforgettable.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
@@ -26,13 +26,13 @@ export default function Hero() {
               href="#projects"
               className="inline-flex items-center gap-2 rounded-md bg-neutral-900 px-4 py-2 text-white hover:bg-neutral-800 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-200 transition-colors"
             >
-              View Projects
+              See My Work
             </a>
             <a
               href="#contact"
               className="inline-flex items-center gap-2 rounded-md border border-neutral-300 dark:border-neutral-700 px-4 py-2 text-neutral-900 dark:text-white hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
             >
-              Contact Me
+              Get a Quote
             </a>
           </div>
         </div>

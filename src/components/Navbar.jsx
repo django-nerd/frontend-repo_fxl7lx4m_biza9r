@@ -5,7 +5,8 @@ export default function Navbar() {
 
   const navItems = [
     { href: '#home', label: 'Home' },
-    { href: '#projects', label: 'Projects' },
+    { href: '#projects', label: 'Work' },
+    { href: '#services', label: 'Services' },
     { href: '#contact', label: 'Contact' },
   ];
 
@@ -14,7 +15,7 @@ export default function Navbar() {
       <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
         <a href="#home" className="font-semibold tracking-tight text-neutral-900 dark:text-white text-lg">
           <span className="sr-only">Go to home</span>
-          My Portfolio
+          Video Editor
         </a>
 
         <nav className="hidden md:flex items-center gap-6 text-sm">
